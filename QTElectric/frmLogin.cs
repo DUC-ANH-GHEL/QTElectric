@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,5 +18,20 @@ namespace QTElectric
             InitializeComponent();
         }
 
+        private void frmLogin_Load(object sender, EventArgs e)
+        {
+            using (var stream = File.OpenRead(".\\Img\\logo.ico"))
+            {
+                if (stream == null)
+                {
+                    MessageBox.Show("Không tìm thấy");
+                }
+                else
+                {
+                    this.Icon = new Icon(stream);
+                }
+
+            }
+        }
     }
 }
