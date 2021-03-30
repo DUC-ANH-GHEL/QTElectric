@@ -17,7 +17,11 @@ namespace QTElectric
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Application.Run(new frmCategory());
+=======
+            Application.Run(new frmLogin());
+>>>>>>> 24178ab88fb5ef715ebb636486a16634809182e4
         }
     }
 }
