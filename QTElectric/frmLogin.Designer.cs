@@ -29,7 +29,6 @@ namespace QTElectric
         /// </summary>
         private void InitializeComponent()
         {
-<<<<<<< HEAD
             this.SuspendLayout();
             // 
             // frmLogin
@@ -39,7 +38,6 @@ namespace QTElectric
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Name = "frmLogin";
             this.Text = "Form1";
-=======
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
@@ -59,8 +57,8 @@ namespace QTElectric
             // 
             // panel1
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.Silver;
             this.panel1.Controls.Add(this.panel3);
@@ -181,7 +179,6 @@ namespace QTElectric
             this.panel3.PerformLayout();
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
->>>>>>> 24178ab88fb5ef715ebb636486a16634809182e4
             this.ResumeLayout(false);
 
         }

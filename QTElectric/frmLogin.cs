@@ -20,18 +20,18 @@ namespace QTElectric
 
         private void frmLogin_Load(object sender, EventArgs e)
         {
-            using (var stream = File.OpenRead(".\\Img\\logo.ico"))
-            {
-                if (stream == null)
-                {
-                    MessageBox.Show("Không tìm thấy");
-                }
-                else
-                {
-                    this.Icon = new Icon(stream);
-                }
+            //using (var stream = File.OpenRead(".\\Img\\logo.ico"))
+            //{
+            //    if (stream == null)
+            //    {
+            //        MessageBox.Show("Không tìm thấy");
+            //    }
+            //    else
+            //    {
+            //        this.Icon = new Icon(stream);
+            //    }
 
-            }
+            //}
         }
     }
 }
